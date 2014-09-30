@@ -9,9 +9,10 @@ Pod::Spec.new do |s|
 
   s.author       = 'Tomer Shiri'
 
-  s.source       = { :git => "https://github.com/korzun1993/AppleGuice.git" }
+  s.source       = { :git => "https://github.com/techery/AppleGuice.git" }
 
   s.platform     = :ios, '5.0'
+  s.requires_arc = false
 
   s.source_files = 'Classes', 'AppleGuice/**/*.{h,m}'
 
